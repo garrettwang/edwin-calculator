@@ -22,7 +22,8 @@ class MainActivity : AppCompatActivity() {
             randomNumber2 = random.nextInt(limit)
             questionField1.text = randomNumber1.toString()
             questionField3.text = randomNumber2.toString()
-
+            resultField.text.clear()
+            resultOfResult.text = ""
         }
 
         emilyBtn.setOnClickListener(){
